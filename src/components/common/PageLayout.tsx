@@ -23,7 +23,7 @@ interface Props {
   children: ReactChildren;
 }
 
-const PageLayout: React.FC<Props> = ({ children }) => {
+export const PageLayout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <Header />
@@ -31,5 +31,3 @@ const PageLayout: React.FC<Props> = ({ children }) => {
     </>
   );
 };
-
-export default PageLayout;
