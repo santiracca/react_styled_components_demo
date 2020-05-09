@@ -16,6 +16,7 @@ const Content = styled.main`
   h5,
   h6 {
     font-family: "Kaushan Script";
+    color: ${(p) => p.theme.textColor};
   }
 `;
 
